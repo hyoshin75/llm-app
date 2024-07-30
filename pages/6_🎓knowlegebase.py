@@ -5,10 +5,9 @@ import os
 import streamlit as st
 #추가
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import (
-    TextLoader, JSONLoader, UnstructuredMarkdownLoader, PyMuPDFLoader)
+from langchain_community.document_loaders import (TextLoader, JSONLoader, UnstructuredMarkdownLoader, PyMuPDFLoader)
 from langchain_openai import OpenAIEmbeddings
-import faiss
+#import faiss
 from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 
