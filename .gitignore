@@ -1,0 +1,7 @@
+.env
+.streamlit/
+.env
+.streamlit/
+chroma/
+faiss/
+tmp/
