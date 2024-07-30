@@ -18,7 +18,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import OpenAIEmbeddings
-import chromadb, faiss
+import faiss
 from langchain_community.vectorstores import Chroma
 from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
